@@ -1,0 +1,130 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+
+#body-content{
+    background-color: gold;
+    padding : 0 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%
+    
+}
+#box{
+    align-items: ;
+}
+/* ---------------------------------HEADER+ imageCanape---------------------------------------------- */
+
+header{
+    background-color: rgb(0, 135, 255);
+    text-align: center;
+    color:white;
+}   
+.imageCanape{
+    width: 100%;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+h2 {
+    padding: 10px
+
+}
+/* ---------------------------------NAV---------------------------------------------- */
+nav{
+   
+    background-color:  rgb(0, 135, 255);
+    font-weight: bold;
+    font-size: small;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    padding:20px;
+    
+}
+li{
+    padding:0px;
+    margin:3px;
+    list-style: none;
+}
+.lienNav{
+    color:white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+/* ---------------------------------MAIN---------------------------------------------- */
+main{
+    display:flex;
+    background-color:white;
+    align-items:flex-end;
+}
+/* -------------------------------------ARTICLE---------------------------------------- */
+h1{
+    margin-top:30px;
+    margin: 20px;
+    color:gold
+}
+#article-content{
+    margin-top: 15px;
+    margin:20px;
+    text-align: justify;
+}
+.figFilm {
+    display: flex;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+#triplefilm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.figFilm img{  /* sert a appliquer le style de "figFilm" aux items "img" de la balise "figFilm" */
+    width: 250px;
+    height: 350px;
+    flex-grow: 1;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+}
+/* ---------------------------------ASIDE + imageMatt--------------------------------------------  */
+aside{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(0, 135, 255);
+    align-items: center;
+}
+h3{
+    font-size:x-large;
+    font-weight: bold;
+    text-align: center;
+}
+h6{
+    font-style: italic;
+}
+.imageMatt{
+    
+    margin: auto;
+    width:150px;
+}
+/* ------------------------------FOOTER--------------------------------------------- */
+footer{
+    background-color:  rgb(0, 135, 255);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}

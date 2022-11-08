@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+body {
+    display:flex;
+    background-color: yellow;
+    flex-direction: column;
+    width: 1333px;
+    margin-left:15%
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{ 
+}
+p1 {
+    color: white;
+    background-color: blue;
+    text-align:center;
+    font-size:xx-large;   
+     
+}
+/* bodycontent {  remplacer par main? 
+    display: flex;
+    flex-direction: row;
+    background-color: white; */
+}
+nav {
+    background-color:blue;
+    text-align: center;
+    margin-top:20px;
+    margin-left:5px;
+    margin-bottom:250px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+a {
+    color:white
+}
+article { /* remplacer par article? */
+    margin-top:20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+h1 {
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+}
+aside { /* relier a l'article -> dans */
+    background-color: blue;
+    margin-top:20px;
+    margin-right: 5px;
+    padding:10px;
+    margin-bottom:20px;
+}
+figcaption {
+    text-align: center;
+}
+h3 {
+    color: white;
+    text-align: center;   
+}
+h1 {
+    text-align:start;
+    margin-bottom: 20px;
+}
+.imageMatt {
+    width:120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+figcaption {
+    color:white
+    
+}
+footer {
+    background-color: blue;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
