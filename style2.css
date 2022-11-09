@@ -1,3 +1,4 @@
+/* style applicable a tout le doc */
 *{
     margin : 0;
     padding: 0;
@@ -5,19 +6,15 @@
     vertical-align: top;
 }
 
-
+/* style applicable a tout le body */
 #body-content{
     background-color: gold;
-    padding : 0 15%;
+    padding : 0 15% 0 15%;
     font-family: Arial, Helvetica, sans-serif;
-    width:100%
-    
-}
-#box{
-    align-items: ;
+    width:100%;
+    height:100%;
 }
 /* ---------------------------------HEADER+ imageCanape---------------------------------------------- */
-
 header{
     background-color: rgb(0, 135, 255);
     text-align: center;
@@ -30,7 +27,6 @@ header{
 }
 h2 {
     padding: 10px
-
 }
 /* ---------------------------------NAV---------------------------------------------- */
 nav{
@@ -38,6 +34,7 @@ nav{
     background-color:  rgb(0, 135, 255);
     font-weight: bold;
     font-size: small;
+    border-bottom: 5px dashed white;
     
     
 }
@@ -61,6 +58,7 @@ li{
 /* ---------------------------------MAIN---------------------------------------------- */
 main{
     display:flex;
+    
     background-color:white;
     align-items:flex-end;
 }
@@ -71,30 +69,32 @@ h1{
     color:gold
 }
 #article-content{
-    margin-top: 15px;
-    margin:20px;
-    text-align: justify;
-}
-.figFilm {
     display: flex;
-    height: 300px;
-    overflow: hidden;
-    border: 1px solid black;
+    flex-direction: column;
+    text-align: justify;
+    align-items:center;
+    margin:20px;
 }
+
 #triplefilm {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
+    height: 450px;
+    ;
     justify-content: space-around;
-    margin-bottom: 30px;
 }
-.figFilm img{  /* sert a appliquer le style de "figFilm" aux items "img" de la balise "figFilm" */
-    width: 250px;
-    height: 350px;
-    flex-grow: 1;
+
+
+.imgfilm {  
+    width: 480px;
+    border: 1px solid black;
+    height: auto;
+    margin: 10px;
+    
+    
 }
 #box{
-    display: flex;
-    flex-direction: column;
 }
 /* ---------------------------------ASIDE + imageMatt--------------------------------------------  */
 aside{
@@ -102,23 +102,25 @@ aside{
     flex-direction: column;
     color:white;
     text-align: justify;
-    margin: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
     padding: 15px;
     background-color: rgb(0, 135, 255);
     align-items: center;
 }
 h3{
+    margin-top: 10px;
     font-size:x-large;
     font-weight: bold;
     text-align: center;
 }
 h6{
     font-style: italic;
+    margin-bottom: 10px;
 }
 .imageMatt{
-    
-    margin: auto;
     width:150px;
+    border:1px solid white;
 }
 /* ------------------------------FOOTER--------------------------------------------- */
 footer{
